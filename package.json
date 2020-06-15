@@ -1,0 +1,24 @@
+{
+  "name": "materiales",
+  "version": "1.0.0",
+  "description": "Node JS express y Sequelize",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "author": "Miguel E",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.4",
+    "pug": "^3.0.0",
+    "sequelize": "^5.21.12"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

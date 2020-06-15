@@ -1,0 +1,25 @@
+primero crear el archivo package.json con el comando 
+npm int
+
+despues instalar una dependencia
+
+npm install --save nodemon body-parser express
+
+luego crear servidor de express (es como el apache)
+
+crear carpeta llamada server
+
+la conf esta en server/index.js
+
+npm run start para levantar el servidor
+
+
+mas tarde se instala pug que es algo para los templates
+
+nueva carperta views
+
+habilitar pug
+
+emm crear carpeta public para los archivos estaticos
+
+npm start para levantar el servidor

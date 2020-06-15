@@ -1,0 +1,31 @@
+extends ../layout/index
+block slider
+    .slider
+        h1 Rio de Janeiro
+        em Aventura
+
+block contenido
+    main.container.mt-5
+        h2.text-center.mb-5 Sobre Nosotros
+            .row.mb-5
+                .col-md-6
+                    p TEXTO
+
+                    p TEXTO
+                .col-md-6
+                    img(src="/img/inicio_nosotros.jpg", class="img-fluid")
+            h2.text-center.mb-5 Proximos viajes
+            include ../layout/partials/viajes
+    .descuento
+        .conatiner
+            .row
+                .col-md-6
+                    .contenido
+                        h3 5% de Descuento
+                        p.titulo Viaje a Cananda
+                        p.fecha 20 de Marzo - 28 de Marzo
+                        p.precio $2500 USD
+    
+    .container
+        h2.text-center.my-5 Testimonios
+        include ../layout/partials/testimoniales
